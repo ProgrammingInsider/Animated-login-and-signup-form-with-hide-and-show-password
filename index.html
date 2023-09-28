@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/aa7454d09f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <section id="section">
+        <i class="fa-solid fa-moon themeButton" id="themeBtn"></i>
+        <!-- <i class="fa-solid fa-diagram-project "></i> -->
+        <i class="fa-brands fa-js projectIcon" ></i>
+        <div class="overlay" id="overlay"></div>
+        <header>
+            <h1 class="logo">Anywhere app.</h1>
+            <article class="nav-link">Home</article>
+            <article class="nav-link">Join</article>
+        </header>
+        <div class="container">
+            <h1 class="offer">start for free</h1>
+            <h1 class="heading">Create new account</h1>
+            <p class="para"><span class="ask">Already a member?</span><span class="link" id="link">Login</span></p>
+            
+                <form action="#" class="form-container" id="signupForm">
+                    <div class="usernameContainer">
+                        <div class="formGroup">
+                            <i class="fa-solid fa-address-book inputIcon"></i>
+                            <input type="text" class="input firstname" id="firstname">
+                            <label for="firstname" class="placeholder">First Name</label>
+                        </div>
+                        <div class="formGroup">
+                            <i class="fa-solid fa-address-book inputIcon"></i>
+                            <input type="text" class="input firstname" id="lastname">
+                            <label for="lastname" class="placeholder">Last Name</label>
+                        </div>
+                    </div>
+                    <div class="formGroup">
+                        <i class="fa-solid fa-envelope inputIcon"></i>
+                        <input type="email" class="input" id="email">
+                        <label for="email" class="placeholder" value="">Email</label>
+                    </div>
+                    <div class="formGroup">
+                        <i class="fa-solid fa-eye inputIcon" id="showSignupPassword"></i>
+                        <input type="password" class="input" id="signuppassword">
+                        <label for="password" class="placeholder">Password</label>
+                    </div>
+                    <div class="btn-container">
+                        <button class="btn btn1">change method</button>
+                        <button class="btn btn2">create account</button>
+                    </div>
+                </form>
+
+                <form action="#" class="form-container" id="loginForm">
+                    <div class="formGroup">
+                        <i class="fa-solid fa-envelope inputIcon"></i>
+                        <input type="email" class="input" id="email">
+                        <label for="email" class="placeholder" value="">Email</label>
+                    </div>
+                    <div class="formGroup">
+                        
+                        
+                        <i class="fa-solid fa-eye inputIcon" id="showLoginPassword"></i>
+                        <input type="password" class="input" id="loginpassword">
+                        <label for="password" class="placeholder">Password</label>
+                    </div>
+                    <div class="btn-container">
+                        <button class="btn btn2">Login</button>
+                    </div>
+                </form>
+            
+        </div>
+        
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
